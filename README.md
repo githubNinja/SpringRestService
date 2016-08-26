@@ -38,12 +38,12 @@ b) We can have index on user_id.
 
 #4. Project Demo
 Working URL's for the Movie Rest Service.
- Given a userId, return all movies that user has watched and the total count, as well as the rating for that movie.
+Given a parameter of "movieId", return its average rating.
 # 1) http://localhost:8080/spring-mvc-db/movieService/movieDetails/rating?movieId=303
 
- Given a parameter of "movieId", return its average rating.
+Given a userId, return all movies that user has watched and the total count, as well as the rating for that movie
 # 2) http://localhost:8080/spring-mvc-db/movieService/movieDetails/user?userId=102
 
- Given a genre such as "action" and a userId, return the top 5 movies for that genre by average rating, where the rating was made by other users within 5 years (older and younger) of the user's age.(Note:Please check if the genre is Drama or 'Action'; for verifying the results.)
+Given a genre such as "action" and a userId, return the top 5 movies for that genre by average rating, where the rating was made by other users within 5 years (older and younger) of the user's age.(Note:Please check if the genre is Drama or 'Action'; for verifying the results.)
 # 3) http://localhost:8080/spring-mvc-db/movieService/movieDetails/top5?userId=103&genre='Drama'
 
